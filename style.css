@@ -29,6 +29,7 @@ li{
 
 .nav{
     display: flex;  
+    flex: wrap;
     justify-content: space-between;
     padding: 24px 14%;
 }
@@ -62,3 +63,24 @@ li{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+
+/* --------------------------------------------------- */
+/* Tablet */
+@media( max-width:530px){
+    .nav {   
+        padding: 24px 7%;
+    }
+    .nav-list ul li {   
+        padding: 0 10px;
+    }
+
+   
+}
+
+
+
+
+
+/* --------------------------------------------------- */
+/* Mobile */
