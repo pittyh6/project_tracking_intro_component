@@ -56,7 +56,9 @@ li{
     margin-right: 20px;
     margin-bottom: 1%;    
 }
-
+.nav li:hover{
+    text-decoration: underline;
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
@@ -83,3 +85,6 @@ li{
 
 /* --------------------------------------------------- */
 /* Mobile */
+@media(max-width: 375px){
+
+}
