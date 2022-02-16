@@ -7,6 +7,7 @@
     --dark-grayish-blue: hsl(230, 11%, 40%);
     --grayish-blue: hsl(231, 7%, 65%);
     --light-grayish-blue: hsl(207, 33%, 95%);
+    --white: #fff;
     --font-weight-400: 400;
     --font-weight-700: 700;
     --font-family-barlow-condensed: 'Barlow Condensed';
@@ -21,10 +22,33 @@ body, ul, li, p, a{
     margin: 0;
     padding: 0;
 }
+button{
+    border: none;
+}
 h1, h2,h3,h4,h5,h6,
 li{
     font-family: var(--font-family-barlow-condensed);
     font-weight: var(--font-weight-700);
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+h1, span, button{
+    text-transform: uppercase;
+}
+p{
+    color: var(--grayish-blue);
+    font-family: var(--font-family-barlow);
+}
+/* ------------------------------------------------- */
+/* MENU */
+.logo{
+    width: 25px;
+    height: 25px;
+}
+.hamburger-toggle{
+    display: none;
 }
 
 .nav{
@@ -60,6 +84,32 @@ li{
     text-decoration: underline;
 }
 
+/* ------------------------------------------------- */
+/* CONTENT */
+.content{
+ display: flex;
+}
+.tag-new{
+    background-color: var(--very-dark-blue);
+    color: var(--white);
+    padding: 5px 13px;
+    border-radius: 24% 24% 24% 24% / 50% 50% 50% 50%;
+    font-weight: var(--font-weight-700);
+}
+.text-grey-space{
+    color: var(--grayish-blue);
+    letter-spacing: 3px;
+}
+.btn-red{
+    background-color: var(--red-primary-color);
+    border-radius: 5px;
+    color: var(--white);
+    padding: 19px 32px;
+}
+
+
+/* ------------------------------------------------- */
+/* footer */
 .attribution { 
     font-size: 11px; text-align: center; 
 }
@@ -86,5 +136,15 @@ li{
 /* --------------------------------------------------- */
 /* Mobile */
 @media(max-width: 375px){
-
+    .nav{
+        padding: 24px 32px;
+    }
+    .nav-list ul{
+        display: none;
+    }
+    .hamburger-toggle{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
 }
