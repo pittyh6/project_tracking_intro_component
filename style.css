@@ -181,6 +181,9 @@ footer{
 /* --------------------------------------------------- */
 /* Mobile */
 @media(max-width: 475px){
+    body{
+        overflow-x: hidden !important;
+    }
     
     .nav{
         padding: 24px 32px;
