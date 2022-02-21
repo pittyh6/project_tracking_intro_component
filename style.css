@@ -106,13 +106,6 @@ p{
     height: 425px; 
     border-bottom-left-radius: 50px;
 }
-.text-content{
-    grid-area: tc;  
-    padding-left: 28%;
-    margin-top: 55px;
-    z-index: 1;
-    position: relative;
-}
 .img-content{
     grid-area:ic;
     z-index: 1;
@@ -120,8 +113,15 @@ p{
 }
 .img-content > img{
     width: 62rem;
-
 }
+.text-content{
+    grid-area: tc;  
+    padding-left: 28%;
+    margin-top: 55px;
+    z-index: 1;
+    position: relative;
+}
+
 .text-content > h1{
     padding-right: 20%;
 }
