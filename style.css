@@ -181,13 +181,7 @@ footer{
 /* --------------------------------------------------- */
 /* Mobile */
 @media(max-width: 475px){
-    .text-content > h1{
-        padding-right: 5%;
-        font-size: 40px;
-    }
-    .text-content > p{
-        padding-right: 15%;
-    }
+    
     .nav{
         padding: 24px 32px;
     }
@@ -212,6 +206,14 @@ footer{
     .img-content > img{
         width: 30rem;
     }
+    .text-content > h1{
+        padding-right: 5%;
+        font-size: 40px;
+    }
+    .text-content > p{
+        padding-right: 15%;
+    }
+    
     .text-content{
         order: 2;
         padding-left: 35px;
