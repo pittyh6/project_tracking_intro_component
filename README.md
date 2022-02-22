@@ -6,8 +6,7 @@
 
 ## Project
 * Tracking Intro Component [link](https://github.com/pittyh6/project_tracking_intro_component)
-* project tracking ACTIVE [link](project_tracking_intro_component
-)
+* project tracking ACTIVE [link](https://pittyh6.github.io/project_tracking_intro_component/index.html)
 
 ## Management Tools
 * Jira(Sprints) [link](https://github.com/pittyh6/project_tracking_intro_component/tree/main/Sprint1-1mth-html%26css)
